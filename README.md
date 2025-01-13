@@ -2,6 +2,8 @@
 
 A Python-based chess game that supports both single-player (against AI) and multiplayer modes.
 
+![image alt](https://github.com/ishimweemmanuel/2048/blob/main/Screenshot%202025-01-13%20134039.png?raw=true)
+
 ## Features
 - Single-player mode against AI
 - Two-player mode for local multiplayer
