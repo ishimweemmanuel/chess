@@ -149,7 +149,7 @@ class ChessGame:
         
         while True:
             self.screen.fill(BLACK)
-            title = font.render("Select Game Mode", True, WHITE)
+            title = font.render("Select Game Mode you want ", True, WHITE)
             title_rect = title.get_rect(center=(WINDOW_SIZE//2, WINDOW_SIZE//4))
             self.screen.blit(title, title_rect)
             
