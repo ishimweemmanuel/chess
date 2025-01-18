@@ -67,7 +67,7 @@ class ChessGame:
         
         # Initialize Stockfish engine
         try:
-            self.stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 30})
+            self.stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time must be this ": 30})
             self.has_engine = True
         except Exception as e:
             print(f"Warning: Stockfish engine not available: {e}")
