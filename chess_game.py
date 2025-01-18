@@ -235,6 +235,8 @@ class ChessGame:
             text_rect = text.get_rect(center=(WINDOW_SIZE/2, WINDOW_SIZE/2))
             self.screen.blit(text, text_rect)
 
+
+
     def get_square_from_pos(self, pos: Tuple[int, int]) -> Optional[int]:
         x, y = pos
         x -= (WINDOW_SIZE - BOARD_SIZE) // 2
