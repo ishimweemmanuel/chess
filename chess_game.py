@@ -16,6 +16,8 @@ PIECE_SIZE = SQUARE_SIZE - 10
 FPS = 60
 
 # Colors
+
+
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GRAY = (128, 128, 128)
@@ -32,6 +34,7 @@ class InputBox:
         self.font = pygame.font.Font(None, 32)
         self.txt_surface = self.font.render(text, True, self.color)
         self.active = False
+
 
     def handle_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
