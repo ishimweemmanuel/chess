@@ -99,7 +99,7 @@ class ChessGame:
     def get_player_name(self) -> str:
         input_box = InputBox(WINDOW_SIZE//2 - 100, WINDOW_SIZE//2 - 20, 200, 40)
         prompt_font = pygame.font.Font(None, 36)
-        prompt_text = prompt_font.render("Enter your name:", True, WHITE)
+        prompt_text = prompt_font.render("Enter Your name:", True, WHITE)
         prompt_rect = prompt_text.get_rect(center=(WINDOW_SIZE//2, WINDOW_SIZE//2 - 50))
         
         while True:
@@ -110,7 +110,7 @@ class ChessGame:
                 
                 name = input_box.handle_event(event)
                 if name:
-                    return name if name.strip() else "Player 1"
+                    return name if name.strip() else "Player No 1"
             
             self.screen.fill(BLACK)
             self.screen.blit(prompt_text, prompt_rect)
